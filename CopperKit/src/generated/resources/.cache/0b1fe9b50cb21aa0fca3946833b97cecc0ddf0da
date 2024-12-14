@@ -1,0 +1,7 @@
+// 1.21.1	2024-12-14T09:26:13.2821341	Tags for minecraft:item mod id copper_kit
+3bf41da289ce02a01f293ee3cba3eef19070876d data/minecraft/tags/item/axes.json
+ff7e177a2c929afe5468d3bec6fd3e1ed240635a data/minecraft/tags/item/hoes.json
+9a64bcb85608f9f1cda56777fa366c6d36ab3b3d data/minecraft/tags/item/pickaxes.json
+4046445b3093002b05f188ab559ca278f018354d data/minecraft/tags/item/shovels.json
+2e07d07df46a0e6491441d26728fb193b272cfa4 data/minecraft/tags/item/swords.json
+ef9fed24d73c046746c9db2533ae8443997551aa data/minecraft/tags/item/trimmable_armor.json

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "B": {
+      "item": "copper_kit:copper_fragment"
+    },
+    "C": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    " B "
+  ],
+  "result": {
+    "count": 3,
+    "id": "copper_kit:copper_grenade"
+  }
+}
