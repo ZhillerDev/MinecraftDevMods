@@ -1,35 +1,26 @@
 {
-  "creativetab.copper_kit.copper_kit_creative_table": "Copper Kit",
+    "creativetab.copper_kit.copper_kit_creative_table": "Copper Kit",
 
-  "key.copper_kit.example": "Example Key",
-  "key.categories.copper_kit": "Copper Kit Keys",
+    "item.copper_kit.copper_nugget": "Copper Nugget",
+    "item.copper_kit.copper_fragment": "Copper Fragment",
+    "item.copper_kit.copper_wire": "Copper Wire",
 
-   "item.copper_kit.copper_nugget": "Copper Nugget",
-   "item.copper_kit.copper_fragment": "Copper Fragment",
-   "item.copper_kit.copper_wire": "Copper Wire",
+    "item.copper_kit.copper_firecracker": "Copper Firecracker",
+    "item.copper_kit.copper_grenade": "Copper Grenade",
 
-   "item.copper_kit.copper_firecracker": "Copper Firecracker",
-   "item.copper_kit.copper_grenade": "Copper Grenade",
+    "item.copper_kit.copper_axe": "Copper Axe",
+    "item.copper_kit.copper_hoe": "Copper Hoe",
+    "item.copper_kit.copper_pickaxe": "Copper Pickaxe",
+    "item.copper_kit.copper_shovel": "Copper Shovel",
+    "item.copper_kit.copper_sword": "Copper Sword",
+    "item.copper_kit.copper_shears": "Copper Shears",
 
-   "item.copper_kit.copper_axe": "Copper Axe",
-   "item.copper_kit.copper_hoe": "Copper Hoe",
-   "item.copper_kit.copper_pickaxe": "Copper Pickaxe",
-   "item.copper_kit.copper_shovel": "Copper Shovel",
-   "item.copper_kit.copper_sword": "Copper Sword",
-   "item.copper_kit.copper_shears": "Copper Shears",
+    "item.copper_kit.copper_leggings": "Copper Leggings",
+    "item.copper_kit.copper_chestplate": "Copper Chestplate",
+    "item.copper_kit.copper_helmet": "Copper Helmet",
+    "item.copper_kit.copper_boots": "Copper Boots",
+    "item.copper_kit.copper_horse_armor": "Copper Horse Armor",
 
-   "item.copper_kit.copper_leggings": "Copper Leggings",
-   "item.copper_kit.copper_chestplate": "Copper Chestplate",
-   "item.copper_kit.copper_helmet": "Copper Helmet",
-   "item.copper_kit.copper_boots": "Copper Boots",
-   "item.copper_kit.copper_horse_armor": "Copper Horse Armor",
-
-   "item.copper_kit.copper_bucket": "Copper Bucket",
-   "item.copper_kit.copper_water_bucket": "Copper Water Bucket"
-
-//    "item.copper_kit.copper_golem_spawn_egg": "Copper Golem Spawn Egg",
-//
-//    "block.copper_kit.copper_chain": "Copper Chain",
-//    "block.copper_kit.copper_button": "Copper Button",
-//    "block.copper_kit.copper_pressure_plate": "Copper Pressure Plate"
+    "item.copper_kit.copper_bucket": "Copper Bucket",
+    "item.copper_kit.copper_water_bucket": "Copper Water Bucket"
 }

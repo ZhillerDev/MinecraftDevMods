@@ -1,23 +1,26 @@
 {
-  "creativetab.copper_kit.copper_kit_creative_table": "铜扩展包",
+    "creativetab.copper_kit.copper_kit_creative_table": "铜扩展包",
 
-   "item.copper_kit.copper_nugget": "铜粒",
-   "item.copper_kit.copper_fragment": "压制铜片",
-   "item.copper_kit.copper_wire": "铜线",
+    "item.copper_kit.copper_nugget": "铜粒",
+    "item.copper_kit.copper_fragment": "压制铜片",
+    "item.copper_kit.copper_wire": "铜线",
 
-   "item.copper_kit.copper_axe": "铜斧",
-   "item.copper_kit.copper_hoe": "铜锄",
-   "item.copper_kit.copper_pickaxe": "铜镐",
-   "item.copper_kit.copper_shovel": "铜锹",
-   "item.copper_kit.copper_sword": "铜剑",
-   "item.copper_kit.copper_shears": "铜剪刀",
+    "item.copper_kit.copper_firecracker": "铜制二踢脚",
+    "item.copper_kit.copper_grenade": "铜制手雷",
 
-   "item.copper_kit.copper_leggings": "铜护腿",
-   "item.copper_kit.copper_chestplate": "铜胸甲",
-   "item.copper_kit.copper_helmet": "铜头盔",
-   "item.copper_kit.copper_boots": "铜靴子",
-   "item.copper_kit.copper_horse_armor": "铜马铠",
+    "item.copper_kit.copper_axe": "铜斧",
+    "item.copper_kit.copper_hoe": "铜锄",
+    "item.copper_kit.copper_pickaxe": "铜镐",
+    "item.copper_kit.copper_shovel": "铜锹",
+    "item.copper_kit.copper_sword": "铜剑",
+    "item.copper_kit.copper_shears": "铜剪刀",
 
-   "item.copper_kit.copper_bucket": "Copper Bucket",
-   "item.copper_kit.copper_water_bucket": "Copper Water Bucket"
+    "item.copper_kit.copper_leggings": "铜护腿",
+    "item.copper_kit.copper_chestplate": "铜胸甲",
+    "item.copper_kit.copper_helmet": "铜头盔",
+    "item.copper_kit.copper_boots": "铜靴子",
+    "item.copper_kit.copper_horse_armor": "铜马铠",
+
+    "item.copper_kit.copper_bucket": "铜桶",
+    "item.copper_kit.copper_water_bucket": "铜水桶"
 }
