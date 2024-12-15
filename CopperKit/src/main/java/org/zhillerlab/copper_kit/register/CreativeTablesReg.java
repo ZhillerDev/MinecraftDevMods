@@ -24,13 +24,14 @@ public class CreativeTablesReg {
     output.accept(ItemsReg.COPPER_BUCKET);
     output.accept(ItemsReg.COPPER_WATER_BUCKET);
     output.accept(ItemsReg.COPPER_LAVA_BUCKET);
-    
-    output.accept(ItemsReg.COPPER_SHEARS);
+
     output.accept(ItemsReg.COPPER_SWORD);
+    output.accept(ItemsReg.COPPER_KNIFE);
     output.accept(ItemsReg.COPPER_PICKAXE);
     output.accept(ItemsReg.COPPER_AXE);
     output.accept(ItemsReg.COPPER_SHOVEL);
     output.accept(ItemsReg.COPPER_HOE);
+    output.accept(ItemsReg.COPPER_SHEARS);
     
     output.accept(ItemsReg.COPPER_HELMET);
     output.accept(ItemsReg.COPPER_CHESTPLATE);

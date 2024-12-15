@@ -4,7 +4,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.projectile.ThrowableItemProjectile;
 import net.minecraft.world.level.Level;
 
-public class CopperGrenadeEntity extends BasicBombItem {
+public class CopperGrenadeEntity extends BasicBombEntity {
   public CopperGrenadeEntity(EntityType<? extends ThrowableItemProjectile> entityType, Level level) {
     super(entityType, level, BombDefs.COPPER_GRENADE);
   }

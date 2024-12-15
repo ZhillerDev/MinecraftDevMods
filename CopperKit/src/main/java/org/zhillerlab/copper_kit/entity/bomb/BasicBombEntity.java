@@ -20,7 +20,7 @@ import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 import org.zhillerlab.copper_kit.register.ItemsReg;
 
-public class BasicBombItem extends ThrowableItemProjectile {
+public class BasicBombEntity extends ThrowableItemProjectile {
   private BombParam param = BombDefs.DEFAULT_BOMB;
   private int bounceCount = BombDefs.DEFAULT_BOMB.bounceCount();
   private float exploredRadius = param.exploredRadius();
@@ -29,7 +29,7 @@ public class BasicBombItem extends ThrowableItemProjectile {
   public static final ParticleOptions FIRECRACKER_PARTICLE =
       (ParticleOptions) ParticleTypes.SMOKE;
   
-  public BasicBombItem(EntityType<? extends ThrowableItemProjectile> entityType, Level level, BombParam param) {
+  public BasicBombEntity(EntityType<? extends ThrowableItemProjectile> entityType, Level level, BombParam param) {
     super(entityType, level);
     if (param != null) {
       this.param = param;

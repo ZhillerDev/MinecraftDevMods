@@ -20,7 +20,8 @@ public class ItemTagGen extends ItemTagsProvider {
   @Override
   protected void addTags(HolderLookup.Provider provider) {
     tag(ItemTags.SWORDS)
-        .add(ItemsReg.COPPER_SWORD.get());
+        .add(ItemsReg.COPPER_SWORD.get())
+        .add(ItemsReg.COPPER_KNIFE.get());
     tag(ItemTags.PICKAXES)
         .add(ItemsReg.COPPER_PICKAXE.get());
     tag(ItemTags.AXES)

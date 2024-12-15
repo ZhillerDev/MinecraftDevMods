@@ -54,6 +54,7 @@ public class ItemModelGen extends ItemModelProvider {
     handheldItem(ItemsReg.COPPER_AXE);
     handheldItem(ItemsReg.COPPER_SHOVEL);
     handheldItem(ItemsReg.COPPER_HOE);
+    handheldItem(ItemsReg.COPPER_KNIFE);
     
     trimmedArmorItem(ItemsReg.COPPER_HELMET);
     trimmedArmorItem(ItemsReg.COPPER_CHESTPLATE);

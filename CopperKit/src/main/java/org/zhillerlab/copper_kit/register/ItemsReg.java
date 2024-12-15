@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import org.zhillerlab.copper_kit.common.config.GlobalConfig;
 import org.zhillerlab.copper_kit.entity.bomb.BombDefs;
 import org.zhillerlab.copper_kit.item.CopperBucketItem;
+import org.zhillerlab.copper_kit.item.CopperKnifeItem;
 import org.zhillerlab.copper_kit.item.CopperShearsItem;
 import org.zhillerlab.copper_kit.item.define.ThrowableItem;
 import org.zhillerlab.copper_kit.item.props.ArmorMaterialsProp;
@@ -28,16 +29,19 @@ public class ItemsReg {
   // Tool 工具注册
   public static final DeferredItem<SwordItem> COPPER_SWORD = ITEMS.register("copper_sword",
       () -> new SwordItem(ToolTiersProp.COPPER_TIER, new Item.Properties()
-          .attributes(SwordItem.createAttributes(ToolTiersProp.COPPER_TIER, 4.5F, -2.2f))));
+          .attributes(SwordItem.createAttributes(ToolTiersProp.COPPER_TIER, 3.6F, -2.4f))));
+  public static final DeferredItem<SwordItem> COPPER_KNIFE = ITEMS.register("copper_knife",
+      () -> new CopperKnifeItem(ToolTiersProp.COPPER_TIER, new Item.Properties()
+          .attributes(SwordItem.createAttributes(ToolTiersProp.COPPER_TIER, 1.7F, -1f))));
   public static final DeferredItem<PickaxeItem> COPPER_PICKAXE = ITEMS.register("copper_pickaxe",
       () -> new PickaxeItem(ToolTiersProp.COPPER_TIER, new Item.Properties()
-          .attributes(PickaxeItem.createAttributes(ToolTiersProp.COPPER_TIER, 1.0F, -3.0f))));
+          .attributes(PickaxeItem.createAttributes(ToolTiersProp.COPPER_TIER, 0.5F, -3.0f))));
   public static final DeferredItem<ShovelItem> COPPER_SHOVEL = ITEMS.register("copper_shovel",
       () -> new ShovelItem(ToolTiersProp.COPPER_TIER, new Item.Properties()
-          .attributes(ShovelItem.createAttributes(ToolTiersProp.COPPER_TIER, 1.0F, -3.0f))));
+          .attributes(ShovelItem.createAttributes(ToolTiersProp.COPPER_TIER, 0.5F, -3.0f))));
   public static final DeferredItem<AxeItem> COPPER_AXE = ITEMS.register("copper_axe",
       () -> new AxeItem(ToolTiersProp.COPPER_TIER, new Item.Properties()
-          .attributes(AxeItem.createAttributes(ToolTiersProp.COPPER_TIER, 5.5F, -3.2f))));
+          .attributes(AxeItem.createAttributes(ToolTiersProp.COPPER_TIER, 4.8F, -3.2f))));
   public static final DeferredItem<HoeItem> COPPER_HOE = ITEMS.register("copper_hoe",
       () -> new HoeItem(ToolTiersProp.COPPER_TIER, new Item.Properties()
           .attributes(HoeItem.createAttributes(ToolTiersProp.COPPER_TIER, 0.5F, -2.5f))));

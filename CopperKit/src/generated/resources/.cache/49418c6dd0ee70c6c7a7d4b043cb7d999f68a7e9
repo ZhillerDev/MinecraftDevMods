@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-15T09:59:31.9603722	Item Models: copper_kit
+// 1.21.1	2024-12-15T13:48:31.6668086	Item Models: copper_kit
 f8d1b52a4faef85f8ca88216e7e0102ebf546790 assets/copper_kit/models/item/copper_axe.json
 1fda8d0090496186c1307bfa6dad74ae7e346cf0 assets/copper_kit/models/item/copper_boots.json
 b949a9b926c8fbdd6bd33bc67d4e59b85dd37bc1 assets/copper_kit/models/item/copper_boots_amethyst_trim.json
@@ -38,6 +38,7 @@ be83ad005cfc2388794665692ce771a483774c20 assets/copper_kit/models/item/copper_he
 4c50bec825b9ecb0a81a39ab968fed78a18b62c3 assets/copper_kit/models/item/copper_helmet_quartz_trim.json
 4636ce0976fb8dde686cdcd3616b099e650beaa2 assets/copper_kit/models/item/copper_helmet_redstone_trim.json
 a96df06a5baab3d858d44c7c115618254e7e5364 assets/copper_kit/models/item/copper_hoe.json
+5ff529c8c1f441e96ec410e1555e22b07b1e4408 assets/copper_kit/models/item/copper_knife.json
 348bbf8bba66c476ef66e6922684b9945aeec494 assets/copper_kit/models/item/copper_lava_bucket.json
 68b6fb0c7bd1c61d4063cc636ae792499ef6b8d4 assets/copper_kit/models/item/copper_leggings.json
 7ec15f287cd227495ed223125aab970cb50fff96 assets/copper_kit/models/item/copper_leggings_amethyst_trim.json

@@ -30,7 +30,7 @@ public class RecipeGen extends RecipeProvider implements IConditionBuilder {
         .define('A', Items.COPPER_INGOT)
         .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
     
-    // 锻造工具
+    // 全套工具武器
     ArrayList<Item> copperTools = new ArrayList<>() {{
       add(ItemsReg.COPPER_SWORD.get());
       add(ItemsReg.COPPER_PICKAXE.get());
@@ -39,6 +39,13 @@ public class RecipeGen extends RecipeProvider implements IConditionBuilder {
       add(ItemsReg.COPPER_HOE.get());
     }};
     buildToolsRecipes(copperTools, Items.COPPER_INGOT, "has_copper", recipeOutput);
+    // 铜匕首
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemsReg.COPPER_KNIFE.get())
+        .pattern("A")
+        .pattern("B")
+        .define('A', Items.COPPER_INGOT)
+        .define('B', Items.STICK)
+        .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
     
     // 桶
     ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemsReg.COPPER_BUCKET.get())
