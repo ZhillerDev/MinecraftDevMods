@@ -22,5 +22,8 @@
     "item.copper_kit.copper_horse_armor": "Copper Horse Armor",
 
     "item.copper_kit.copper_bucket": "Copper Bucket",
-    "item.copper_kit.copper_water_bucket": "Copper Water Bucket"
+    "item.copper_kit.copper_water_bucket": "Copper Water Bucket",
+    "item.copper_kit.copper_lava_bucket": "Copper Lava Bucket",
+
+    "tooltip.copper_kit.copper_bucket": "Not Lava Bucket!"
 }

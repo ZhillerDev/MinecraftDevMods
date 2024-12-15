@@ -5,7 +5,7 @@
     "item.copper_kit.copper_fragment": "压制铜片",
     "item.copper_kit.copper_wire": "铜线",
 
-    "item.copper_kit.copper_firecracker": "铜制二踢脚",
+    "item.copper_kit.copper_firecracker": "铜制爆竹",
     "item.copper_kit.copper_grenade": "铜制手雷",
 
     "item.copper_kit.copper_axe": "铜斧",
@@ -22,5 +22,8 @@
     "item.copper_kit.copper_horse_armor": "铜马铠",
 
     "item.copper_kit.copper_bucket": "铜桶",
-    "item.copper_kit.copper_water_bucket": "铜水桶"
+    "item.copper_kit.copper_water_bucket": "铜水桶",
+    "item.copper_kit.copper_lava_bucket": "铜熔岩桶",
+
+    "tooltip.copper_kit.copper_bucket": "请千万不要装岩浆"
 }

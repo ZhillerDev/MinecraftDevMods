@@ -1,8 +1,9 @@
-// 1.21.1	2024-12-14T13:17:28.292143	Recipes
+// 1.21.1	2024-12-14T23:40:42.9821689	Recipes
 914ce3041ac28d5265678a9acec9903c8f999479 data/copper_kit/advancement/recipes/combat/copper_boots.json
 30073c2f07717cb377dc9bda8411b84e55feffa0 data/copper_kit/advancement/recipes/combat/copper_chestplate.json
 9edffb90b6d8de66475121839a8d3002e2d7d4f8 data/copper_kit/advancement/recipes/combat/copper_helmet.json
 1792300bfa204ed780e9760a726a92905c332bfe data/copper_kit/advancement/recipes/combat/copper_leggings.json
+919be43ed19df2c92f7891dd5d8ae0f7bfe6b331 data/copper_kit/advancement/recipes/misc/copper_bucket.json
 dd982bb021f71d91ddfd1e92d56f747fca5df390 data/copper_kit/advancement/recipes/misc/copper_firecracker.json
 ba0f6c99f9113dcf14ebe856efe7ec1cb4565602 data/copper_kit/advancement/recipes/misc/copper_fragment.json
 0fc9480e060556a790e449582301c54bad29b809 data/copper_kit/advancement/recipes/misc/copper_grenade.json
@@ -15,6 +16,7 @@ daefc498ad81a482ca8f47a5d7faf668317a93e4 data/copper_kit/advancement/recipes/too
 654fe99365a4ac606a0047e2db529ca6160b14df data/copper_kit/advancement/recipes/tools/copper_sword.json
 589385852abedead9333180a0cb41bcaec1bac47 data/copper_kit/recipe/copper_axe.json
 3792a67be9098b49e141e46ce4309f4deff4b036 data/copper_kit/recipe/copper_boots.json
+69c7e3933a75ec56cc33c5b56a21fbb7d693982c data/copper_kit/recipe/copper_bucket.json
 1c8eda6ad6790246835516c8234b06a433fb52de data/copper_kit/recipe/copper_chestplate.json
 9b24aaff484cba684e8b0380e605f27a4c7fe74f data/copper_kit/recipe/copper_firecracker.json
 e81b4ad078708ebf97fccc4385fb3ad98c8ea161 data/copper_kit/recipe/copper_fragment.json

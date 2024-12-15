@@ -13,6 +13,7 @@ public class CopperShearsItem extends ShearsItem {
     super(properties
         .durability(196)
         .component(DataComponents.TOOL, createToolProperties())
+        
     );
   }
   

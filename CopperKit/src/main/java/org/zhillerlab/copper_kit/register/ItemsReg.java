@@ -1,11 +1,13 @@
 package org.zhillerlab.copper_kit.register;
 
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.material.Fluids;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.zhillerlab.copper_kit.common.config.GlobalConfig;
 import org.zhillerlab.copper_kit.entity.bomb.BombDefs;
+import org.zhillerlab.copper_kit.item.CopperBucketItem;
 import org.zhillerlab.copper_kit.item.CopperShearsItem;
 import org.zhillerlab.copper_kit.item.define.ThrowableItem;
 import org.zhillerlab.copper_kit.item.props.ArmorMaterialsProp;
@@ -61,6 +63,13 @@ public class ItemsReg {
   public static final DeferredItem<ThrowableItem> COPPER_GRENADE = ITEMS.register("copper_grenade",
       () -> new ThrowableItem(new Item.Properties(),
           EntitiesReg.COPPER_GRENADE_ENTITY::get, BombDefs.COPPER_GRENADE.cooldown(), BombDefs.COPPER_GRENADE.zAxis(), BombDefs.COPPER_GRENADE.velocity(), BombDefs.COPPER_GRENADE.inaccuracy()));
+  
+  public static final DeferredItem<BucketItem> COPPER_BUCKET = ITEMS.register("copper_bucket",
+      () -> new CopperBucketItem(Fluids.EMPTY));
+  public static final DeferredItem<BucketItem> COPPER_WATER_BUCKET = ITEMS.register("copper_water_bucket",
+      () -> new CopperBucketItem(Fluids.WATER));
+  public static final DeferredItem<BucketItem> COPPER_LAVA_BUCKET = ITEMS.register("copper_lava_bucket",
+      () -> new CopperBucketItem(Fluids.LAVA));
   
   public static void init(IEventBus modEventBus) {
     GlobalConfig.LOGGER.info("Registering Items for " + GlobalConfig.MOD_ID);
