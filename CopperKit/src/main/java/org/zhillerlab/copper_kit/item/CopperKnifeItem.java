@@ -43,20 +43,6 @@ public class CopperKnifeItem extends SwordItem {
     }
     return InteractionResultHolder.sidedSuccess(itemstack, level.isClientSide);
   }
-
-//  @Override
-//  public @NotNull ItemStack finishUsingItem(ItemStack stack, Level level, LivingEntity entityLiving) {
-//    ItemStack itemstack = super.finishUsingItem(stack, level, entityLiving);
-//    itemstack.set(
-//        ToolDataComp.COPPER_KNIFE,
-//        "Ready!!!"
-//    );
-//    if (entityLiving instanceof Player player) {
-//      player.resetCurrentImpulseContext();
-//      player.getCooldowns().addCooldown(this, 40);
-//    }
-//    return stack;
-//  }
   
   private int normalize(float value) {
     if (value > 100) {
