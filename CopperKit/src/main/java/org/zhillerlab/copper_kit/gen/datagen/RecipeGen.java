@@ -24,7 +24,7 @@ public class RecipeGen extends RecipeProvider implements IConditionBuilder {
     
     // 原材料
     buildIngotAndNuggetRecipes(Items.COPPER_INGOT, ItemsReg.COPPER_NUGGET.get(), "has_copper", recipeOutput);
-    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemsReg.COPPER_FRAGMENT.get(), 2)
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemsReg.COPPER_SHEET.get(), 2)
         .pattern("AA")
         .pattern("AA")
         .define('A', Items.COPPER_INGOT)
@@ -84,9 +84,9 @@ public class RecipeGen extends RecipeProvider implements IConditionBuilder {
         .pattern("BCB")
         .pattern(" B ")
         .define('A', Items.IRON_INGOT)
-        .define('B', ItemsReg.COPPER_FRAGMENT)
+        .define('B', ItemsReg.COPPER_SHEET)
         .define('C', Items.GUNPOWDER)
-        .unlockedBy("has_copper", has(ItemsReg.COPPER_FRAGMENT)).save(recipeOutput);
+        .unlockedBy("has_copper", has(ItemsReg.COPPER_SHEET)).save(recipeOutput);
   }
   
   private static void buildArmorRecipes(List<Item> items, Item originIngot, String unlockName, RecipeOutput recipeOutput) {

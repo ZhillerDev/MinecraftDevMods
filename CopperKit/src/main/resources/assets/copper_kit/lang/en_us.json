@@ -2,7 +2,7 @@
     "creativetab.copper_kit.copper_kit_creative_table": "Copper Kit",
 
     "item.copper_kit.copper_nugget": "Copper Nugget",
-    "item.copper_kit.copper_fragment": "Copper Fragment",
+    "item.copper_kit.copper_sheet": "Copper Sheet",
     "item.copper_kit.copper_wire": "Copper Wire",
 
     "item.copper_kit.copper_firecracker": "Copper Firecracker",
@@ -25,6 +25,11 @@
     "item.copper_kit.copper_bucket": "Copper Bucket",
     "item.copper_kit.copper_water_bucket": "Copper Water Bucket",
     "item.copper_kit.copper_lava_bucket": "Copper Lava Bucket",
+
+    "block.copper_kit.copper_chest": "Copper Chest",
+    "block.copper_kit.copper_sheet_chest": "Copper Sheet Chest",
+    "block.copper_kit.copper_cabinet": "Copper Cabinet",
+    "block.copper_kit.copper_sheet_strongbox": "Copper Strongbox",
 
     "tooltip.copper_kit.copper_bucket": "Not Lava Bucket!"
 }

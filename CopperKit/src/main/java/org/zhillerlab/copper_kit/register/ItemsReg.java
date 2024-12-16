@@ -21,8 +21,8 @@ public class ItemsReg {
   // Material 元材料注册
   public static final DeferredItem<Item> COPPER_NUGGET =
       ITEMS.register("copper_nugget", () -> new Item(new Item.Properties()));
-  public static final DeferredItem<Item> COPPER_FRAGMENT =
-      ITEMS.register("copper_fragment", () -> new Item(new Item.Properties()));
+  public static final DeferredItem<Item> COPPER_SHEET =
+      ITEMS.register("copper_sheet", () -> new Item(new Item.Properties()));
   public static final DeferredItem<CopperShearsItem> COPPER_SHEARS =
       ITEMS.register("copper_shears", () -> new CopperShearsItem(new Item.Properties()));
   

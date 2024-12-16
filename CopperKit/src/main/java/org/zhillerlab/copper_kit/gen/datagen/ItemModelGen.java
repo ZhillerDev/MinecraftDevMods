@@ -40,7 +40,7 @@ public class ItemModelGen extends ItemModelProvider {
   @Override
   protected void registerModels() {
     basicItem(ItemsReg.COPPER_NUGGET.get());
-    basicItem(ItemsReg.COPPER_FRAGMENT.get());
+    basicItem(ItemsReg.COPPER_SHEET.get());
     basicItem(ItemsReg.COPPER_SHEARS.get());
     basicItem(ItemsReg.COPPER_FIRECRACKER.get());
     basicItem(ItemsReg.COPPER_GRENADE.get());

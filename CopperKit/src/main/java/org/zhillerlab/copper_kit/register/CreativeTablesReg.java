@@ -16,7 +16,7 @@ public class CreativeTablesReg {
   
   private static void addToCreativeTable(CreativeModeTab.Output output) {
     output.accept(ItemsReg.COPPER_NUGGET);
-    output.accept(ItemsReg.COPPER_FRAGMENT);
+    output.accept(ItemsReg.COPPER_SHEET);
     
     output.accept(ItemsReg.COPPER_FIRECRACKER);
     output.accept(ItemsReg.COPPER_GRENADE);
@@ -42,7 +42,7 @@ public class CreativeTablesReg {
   
   public static final Supplier<CreativeModeTab> EXAMPLE_MOD_TAB = CREATIVE_MODE_TAB.register(
       GlobalConfig.MOD_ID + "_creative_table",
-      () -> CreativeModeTab.builder().icon(() -> new ItemStack(ItemsReg.COPPER_FRAGMENT.get()))
+      () -> CreativeModeTab.builder().icon(() -> new ItemStack(ItemsReg.COPPER_SHEET.get()))
           .title(Component.translatable("creativetab.copper_kit.copper_kit_creative_table"))
           .displayItems((itemDisplayParameters, output) -> {
             addToCreativeTable(output);

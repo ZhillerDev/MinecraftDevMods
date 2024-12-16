@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "copper_kit.copper_chest",
+    "copper_kit.copper_sheet_chest",
+    "copper_kit.copper_cabinet",
+    "copper_kit.copper_sheet_strongbox"
+
+  ]
+}

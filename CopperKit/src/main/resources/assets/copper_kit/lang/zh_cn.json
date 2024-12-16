@@ -2,7 +2,7 @@
     "creativetab.copper_kit.copper_kit_creative_table": "铜扩展包",
 
     "item.copper_kit.copper_nugget": "铜粒",
-    "item.copper_kit.copper_fragment": "压制铜片",
+    "item.copper_kit.copper_sheet": "硬质锻造铜片",
     "item.copper_kit.copper_wire": "铜线",
 
     "item.copper_kit.copper_firecracker": "铜制爆竹",
@@ -25,6 +25,12 @@
     "item.copper_kit.copper_bucket": "铜桶",
     "item.copper_kit.copper_water_bucket": "铜水桶",
     "item.copper_kit.copper_lava_bucket": "铜熔岩桶",
+
+    "block.copper_kit.copper_chest": "铜箱子",
+    "block.copper_kit.copper_sheet_chest": "硬质锻造铜箱",
+    "block.copper_kit.copper_cabinet": "铜储物柜",
+    "block.copper_kit.copper_sheet_strongbox": "铜保险箱",
+
 
     "tooltip.copper_kit.copper_bucket": "请千万不要装岩浆"
 }

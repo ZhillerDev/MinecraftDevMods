@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-15T13:48:31.6668086	Item Models: copper_kit
+// 1.21.1	2024-12-16T17:07:13.0149486	Item Models: copper_kit
 f8d1b52a4faef85f8ca88216e7e0102ebf546790 assets/copper_kit/models/item/copper_axe.json
 1fda8d0090496186c1307bfa6dad74ae7e346cf0 assets/copper_kit/models/item/copper_boots.json
 b949a9b926c8fbdd6bd33bc67d4e59b85dd37bc1 assets/copper_kit/models/item/copper_boots_amethyst_trim.json
@@ -24,7 +24,6 @@ c543daf9c1a9a8de86598b5d3e71b32701a7c8e5 assets/copper_kit/models/item/copper_ch
 2012464df053bcb82282de5717716262449511d5 assets/copper_kit/models/item/copper_chestplate_quartz_trim.json
 7feb177702232425d9ad0f02dab18512fc065bd8 assets/copper_kit/models/item/copper_chestplate_redstone_trim.json
 da03a726aab57e593f0b8fe50c7aa194feac2bf7 assets/copper_kit/models/item/copper_firecracker.json
-d762d98a0f7d053f53a8a39c3bcef8635c2fd6eb assets/copper_kit/models/item/copper_fragment.json
 7eb8e01a742e0d67406ffde63fac4aae0fb7edda assets/copper_kit/models/item/copper_grenade.json
 2e72f07715e9c1418622033699f4ac53477b98c6 assets/copper_kit/models/item/copper_helmet.json
 9d0647d4d779e79c37aa959c273df1b86c29a1af assets/copper_kit/models/item/copper_helmet_amethyst_trim.json
@@ -54,6 +53,7 @@ bf6ab37ecc4ebdd1a6ad2e10acf333cf81dc2fb6 assets/copper_kit/models/item/copper_le
 1b5be4a2bce05c037e13dd56629531c7bd1897df assets/copper_kit/models/item/copper_nugget.json
 d2e301beb26a58bb5431231ebea25f78c0d70b30 assets/copper_kit/models/item/copper_pickaxe.json
 3536f727a3b2a8d8080405f5a780880dff58869d assets/copper_kit/models/item/copper_shears.json
+b6fe5e3bf4df7d3ed1499884d2e8af79f51b11cf assets/copper_kit/models/item/copper_sheet.json
 29ad3ff6f3fbdc02edfa6c8cd6cd5879b0fb8d5d assets/copper_kit/models/item/copper_shovel.json
 6a2f51756e6ba073c6d280a6e8887b1155f66091 assets/copper_kit/models/item/copper_sword.json
 5a85d4945525f4be6c854f4ab251f7d1a02fe7f9 assets/copper_kit/models/item/copper_water_bucket.json
