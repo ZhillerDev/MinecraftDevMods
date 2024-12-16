@@ -29,6 +29,7 @@ public class CreativeTablesReg {
     output.accept(ItemsReg.COPPER_WATER_BUCKET);
     output.accept(ItemsReg.COPPER_LAVA_BUCKET);
     
+    output.accept(ItemsReg.COPPER_BOW);
     output.accept(ItemsReg.COPPER_SWORD);
     output.accept(ItemsReg.COPPER_KNIFE);
     output.accept(ItemsReg.COPPER_PICKAXE);

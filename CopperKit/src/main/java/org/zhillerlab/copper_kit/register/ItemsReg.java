@@ -56,6 +56,9 @@ public class ItemsReg {
       () -> new HoeItem(ToolTiersProp.COPPER_TIER, new Item.Properties()
           .attributes(HoeItem.createAttributes(ToolTiersProp.COPPER_TIER, 0.5F, -2.5f))));
   
+  public static final DeferredItem<Item> COPPER_BOW = ITEMS.register("copper_bow",
+      () -> new BowItem(new Item.Properties().durability(287)));
+  
   // Armor 盔甲注册
   public static final DeferredItem<ArmorItem> COPPER_HELMET = ITEMS.register("copper_helmet",
       () -> new ArmorItem(ArmorMaterialsProp.COPPER_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
