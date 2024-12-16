@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_copper_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "copper_kit:copper_bowl"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "copper_kit:copper_bowl_rabbit_stew"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_copper_bowl"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "copper_kit:copper_bowl_rabbit_stew"
+    ]
+  }
+}

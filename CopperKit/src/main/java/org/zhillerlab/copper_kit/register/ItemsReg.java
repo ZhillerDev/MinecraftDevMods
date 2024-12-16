@@ -7,11 +7,13 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.zhillerlab.copper_kit.common.config.GlobalConfig;
 import org.zhillerlab.copper_kit.entity.bomb.BombDefs;
+import org.zhillerlab.copper_kit.item.CopperBowlStewItem;
 import org.zhillerlab.copper_kit.item.CopperBucketItem;
 import org.zhillerlab.copper_kit.item.CopperKnifeItem;
 import org.zhillerlab.copper_kit.item.CopperShearsItem;
 import org.zhillerlab.copper_kit.item.define.ThrowableItem;
 import org.zhillerlab.copper_kit.item.props.ArmorMaterialsProp;
+import org.zhillerlab.copper_kit.item.props.FoodProp;
 import org.zhillerlab.copper_kit.item.props.ToolTiersProp;
 
 public class ItemsReg {
@@ -23,10 +25,18 @@ public class ItemsReg {
       ITEMS.register("copper_nugget", () -> new Item(new Item.Properties()));
   public static final DeferredItem<Item> COPPER_SHEET =
       ITEMS.register("copper_sheet", () -> new Item(new Item.Properties()));
-  public static final DeferredItem<CopperShearsItem> COPPER_SHEARS =
-      ITEMS.register("copper_shears", () -> new CopperShearsItem(new Item.Properties()));
+  
+  // 食物注册
+  public static final DeferredItem<Item> COPPER_BOWL =
+      ITEMS.register("copper_bowl", () -> new Item(new Item.Properties().stacksTo(1)));
+  public static final DeferredItem<Item> COPPER_BOWL_MUSHROOM_STEW = ITEMS.register("copper_bowl_mushroom_stew",
+      () -> new CopperBowlStewItem(new Item.Properties().food(FoodProp.COPPER_BOWL_MUSHROOM_STEW)));
+  public static final DeferredItem<Item> COPPER_BOWL_RABBIT_STEW = ITEMS.register("copper_bowl_rabbit_stew",
+      () -> new CopperBowlStewItem(new Item.Properties().food(FoodProp.COPPER_BOWL_RABBIT_STEW)));
   
   // Tool 工具注册
+  public static final DeferredItem<CopperShearsItem> COPPER_SHEARS =
+      ITEMS.register("copper_shears", () -> new CopperShearsItem(new Item.Properties()));
   public static final DeferredItem<SwordItem> COPPER_SWORD = ITEMS.register("copper_sword",
       () -> new SwordItem(ToolTiersProp.COPPER_TIER, new Item.Properties()
           .attributes(SwordItem.createAttributes(ToolTiersProp.COPPER_TIER, 3.6F, -2.4f))));

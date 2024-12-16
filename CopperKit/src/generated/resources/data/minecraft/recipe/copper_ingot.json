@@ -1,15 +1,34 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "B": {
+  "ingredients": [
+    {
+      "item": "copper_kit:copper_nugget"
+    },
+    {
+      "item": "copper_kit:copper_nugget"
+    },
+    {
+      "item": "copper_kit:copper_nugget"
+    },
+    {
+      "item": "copper_kit:copper_nugget"
+    },
+    {
+      "item": "copper_kit:copper_nugget"
+    },
+    {
+      "item": "copper_kit:copper_nugget"
+    },
+    {
+      "item": "copper_kit:copper_nugget"
+    },
+    {
+      "item": "copper_kit:copper_nugget"
+    },
+    {
       "item": "copper_kit:copper_nugget"
     }
-  },
-  "pattern": [
-    "BBB",
-    "BBB",
-    "BBB"
   ],
   "result": {
     "count": 1,

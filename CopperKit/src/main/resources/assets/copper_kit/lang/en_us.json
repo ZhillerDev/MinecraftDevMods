@@ -26,6 +26,10 @@
     "item.copper_kit.copper_water_bucket": "Copper Water Bucket",
     "item.copper_kit.copper_lava_bucket": "Copper Lava Bucket",
 
+    "item.copper_kit.copper_bowl": "Copper Bowl",
+    "item.copper_kit.copper_bowl_mushroom_stew": "Mushroom Stew on Copper Bowl",
+    "item.copper_kit.copper_bowl_rabbit_stew": "Rabbit Stew on Copper Bowl",
+
     "block.copper_kit.copper_chest": "Copper Chest",
     "block.copper_kit.copper_sheet_chest": "Copper Sheet Chest",
     "block.copper_kit.copper_cabinet": "Copper Cabinet",

@@ -1,4 +1,4 @@
-// 1.21.1	2024-12-16T17:07:13.0149486	Item Models: copper_kit
+// 1.21.1	2024-12-16T19:45:30.8731258	Item Models: copper_kit
 f8d1b52a4faef85f8ca88216e7e0102ebf546790 assets/copper_kit/models/item/copper_axe.json
 1fda8d0090496186c1307bfa6dad74ae7e346cf0 assets/copper_kit/models/item/copper_boots.json
 b949a9b926c8fbdd6bd33bc67d4e59b85dd37bc1 assets/copper_kit/models/item/copper_boots_amethyst_trim.json
@@ -11,6 +11,9 @@ f9eec16cceb65ab421a793d847f37d02ff39cbf5 assets/copper_kit/models/item/copper_bo
 54ce2630382141383961ed172a4a53d1e9afce86 assets/copper_kit/models/item/copper_boots_netherite_trim.json
 3097e146f7c1fa84760a52015a60d4f56991bcfe assets/copper_kit/models/item/copper_boots_quartz_trim.json
 89cc2371947ed87b814ac52aacf49d3d0ced84b0 assets/copper_kit/models/item/copper_boots_redstone_trim.json
+94b9577a3b1c0f3fbac340d9dd3674ae005ef9bc assets/copper_kit/models/item/copper_bowl.json
+c20c49626aa3a879339a698ce131d01ccc73bca8 assets/copper_kit/models/item/copper_bowl_mushroom_stew.json
+393ae8878daadd6c8ae0fd9d8717b00070c5eced assets/copper_kit/models/item/copper_bowl_rabbit_stew.json
 e748a4be184e0703d5eb7c41c8543f4945e1c918 assets/copper_kit/models/item/copper_bucket.json
 2cb0bcd1377b98b3b8ac7db157b8d185fc0ce5df assets/copper_kit/models/item/copper_chestplate.json
 26981f7b2717e4319ee625281bfa2d9ac70b16e5 assets/copper_kit/models/item/copper_chestplate_amethyst_trim.json

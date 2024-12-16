@@ -12,7 +12,7 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
-import org.zhillerlab.copper_kit.common.component.ToolDataComp;
+import org.zhillerlab.copper_kit.common.component.ItemDataComp;
 
 import java.util.List;
 import java.util.Objects;
@@ -24,8 +24,8 @@ public class CopperKnifeItem extends SwordItem {
   
   @Override
   public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-    if (stack.get(ToolDataComp.COPPER_KNIFE) != null) {
-      tooltipComponents.add(Component.literal(Objects.requireNonNull(stack.get(ToolDataComp.COPPER_KNIFE))));
+    if (stack.get(ItemDataComp.COPPER_KNIFE) != null) {
+      tooltipComponents.add(Component.literal(Objects.requireNonNull(stack.get(ItemDataComp.COPPER_KNIFE))));
     }
     super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
   }
@@ -35,7 +35,7 @@ public class CopperKnifeItem extends SwordItem {
     ItemStack itemstack = player.getItemInHand(usedHand);
     if (!level.isClientSide) {
       itemstack.set(
-          ToolDataComp.COPPER_KNIFE,
+          ItemDataComp.COPPER_KNIFE,
           "Ready!!!"
       );
       player.resetCurrentImpulseContext();
@@ -62,7 +62,7 @@ public class CopperKnifeItem extends SwordItem {
   @Override
   public void postHurtEnemy(@NotNull ItemStack stack, LivingEntity target, LivingEntity attacker) {
     if (attacker instanceof Player player) {
-      if (stack.get(ToolDataComp.COPPER_KNIFE) != null) {
+      if (stack.get(ItemDataComp.COPPER_KNIFE) != null) {
         float health = target.getHealth();
         if (health <= (target.getMaxHealth() * 0.8)) {
           target.hurt(
@@ -70,7 +70,7 @@ public class CopperKnifeItem extends SwordItem {
               (float) (target.getMaxHealth())
           );
         }
-        stack.remove(ToolDataComp.COPPER_KNIFE);
+        stack.remove(ItemDataComp.COPPER_KNIFE);
         int normalize = normalize(health);
         if (normalize != -1) {
           stack.hurtAndBreak(normalize, attacker, EquipmentSlot.MAINHAND);

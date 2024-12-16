@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "ingredient": {
+    "item": "copper_kit:copper_bowl_rabbit_stew"
+  },
+  "result": {
+    "id": "copper_kit:copper_bowl_rabbit_stew",
+    "components": {
+      "minecraft:custom_data": {
+        "stew_cooked": "true"
+      }
+    }
+  },
+  "experience": 0.1,
+  "cookingtime": 60
+}

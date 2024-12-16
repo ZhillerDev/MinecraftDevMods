@@ -18,13 +18,17 @@ public class CreativeTablesReg {
     output.accept(ItemsReg.COPPER_NUGGET);
     output.accept(ItemsReg.COPPER_SHEET);
     
+    output.accept(ItemsReg.COPPER_BOWL);
+    output.accept(ItemsReg.COPPER_BOWL_MUSHROOM_STEW);
+    output.accept(ItemsReg.COPPER_BOWL_RABBIT_STEW);
+    
     output.accept(ItemsReg.COPPER_FIRECRACKER);
     output.accept(ItemsReg.COPPER_GRENADE);
     
     output.accept(ItemsReg.COPPER_BUCKET);
     output.accept(ItemsReg.COPPER_WATER_BUCKET);
     output.accept(ItemsReg.COPPER_LAVA_BUCKET);
-
+    
     output.accept(ItemsReg.COPPER_SWORD);
     output.accept(ItemsReg.COPPER_KNIFE);
     output.accept(ItemsReg.COPPER_PICKAXE);

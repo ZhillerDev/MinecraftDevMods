@@ -26,6 +26,10 @@
     "item.copper_kit.copper_water_bucket": "铜水桶",
     "item.copper_kit.copper_lava_bucket": "铜熔岩桶",
 
+    "item.copper_kit.copper_bowl": "铜碗",
+    "item.copper_kit.copper_bowl_mushroom_stew": "蘑菇煲-铜碗装着的",
+    "item.copper_kit.copper_bowl_rabbit_stew": "兔子煲-铜碗装着的",
+
     "block.copper_kit.copper_chest": "铜箱子",
     "block.copper_kit.copper_sheet_chest": "硬质锻造铜箱",
     "block.copper_kit.copper_cabinet": "铜储物柜",

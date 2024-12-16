@@ -30,6 +30,26 @@ public class RecipeGen extends RecipeProvider implements IConditionBuilder {
         .define('A', Items.COPPER_INGOT)
         .unlockedBy("has_copper", has(Items.COPPER_INGOT)).save(recipeOutput);
     
+    // 食物
+    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ItemsReg.COPPER_BOWL.get())
+        .pattern("A A")
+        .pattern(" A ")
+        .define('A', ItemsReg.COPPER_SHEET)
+        .unlockedBy("has_copper_sheet", has(ItemsReg.COPPER_SHEET)).save(recipeOutput);
+    ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ItemsReg.COPPER_BOWL_MUSHROOM_STEW.get())
+        .requires(Items.BROWN_MUSHROOM)
+        .requires(Items.RED_MUSHROOM)
+        .requires(ItemsReg.COPPER_BOWL)
+        .unlockedBy("has_copper_bowl", has(ItemsReg.COPPER_BOWL)).save(recipeOutput);
+    ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ItemsReg.COPPER_BOWL_RABBIT_STEW.get())
+        .requires(Items.RABBIT)
+        .requires(Items.CARROT)
+        .requires(Items.BAKED_POTATO)
+        .requires(Items.RED_MUSHROOM)
+        .requires(ItemsReg.COPPER_BOWL)
+        .unlockedBy("has_copper_bowl", has(ItemsReg.COPPER_BOWL)).save(recipeOutput);
+    
+    
     // 全套工具武器
     ArrayList<Item> copperTools = new ArrayList<>() {{
       add(ItemsReg.COPPER_SWORD.get());
@@ -166,14 +186,19 @@ public class RecipeGen extends RecipeProvider implements IConditionBuilder {
   }
   
   private static void buildIngotAndNuggetRecipes(Item item, Item nugget, String unlockName, RecipeOutput recipeOutput) {
-    ShapedRecipeBuilder.shaped(RecipeCategory.MISC, item)
-        .pattern("BBB")
-        .pattern("BBB")
-        .pattern("BBB")
-        .define('B', nugget)
-        .unlockedBy(unlockName, has(nugget)).save(recipeOutput);
-    ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, nugget, 9)
-        .requires(item)
-        .unlockedBy(unlockName, has(item)).save(recipeOutput);
+    threeByThreePacker(
+        recipeOutput,
+        RecipeCategory.MISC,
+        item,
+        nugget,
+        unlockName
+    );
+    oneToOneConversionRecipe(
+        recipeOutput,
+        nugget,
+        item,
+        null,
+        9
+    );
   }
 }

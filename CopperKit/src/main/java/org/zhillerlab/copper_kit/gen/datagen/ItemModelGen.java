@@ -45,6 +45,10 @@ public class ItemModelGen extends ItemModelProvider {
     basicItem(ItemsReg.COPPER_FIRECRACKER.get());
     basicItem(ItemsReg.COPPER_GRENADE.get());
     
+    basicItem(ItemsReg.COPPER_BOWL.get());
+    basicItem(ItemsReg.COPPER_BOWL_MUSHROOM_STEW.get());
+    basicItem(ItemsReg.COPPER_BOWL_RABBIT_STEW.get());
+    
     basicItem(ItemsReg.COPPER_BUCKET.get());
     basicItem(ItemsReg.COPPER_WATER_BUCKET.get());
     basicItem(ItemsReg.COPPER_LAVA_BUCKET.get());

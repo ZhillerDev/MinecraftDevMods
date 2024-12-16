@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "copper_kit:copper_sheet"
+    }
+  },
+  "pattern": [
+    "A A",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "copper_kit:copper_bowl"
+  }
+}
