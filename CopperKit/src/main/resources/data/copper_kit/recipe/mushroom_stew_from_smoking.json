@@ -8,10 +8,13 @@
     "id": "copper_kit:copper_bowl_mushroom_stew",
     "components": {
       "minecraft:custom_data": {
-        "stew_cooked": "true"
+        "stew_cooked": {
+          "name": "cooked",
+          "count": 1
+        }
       }
     }
   },
   "experience": 0.1,
-  "cookingtime": 60
+  "cookingtime": 120
 }
