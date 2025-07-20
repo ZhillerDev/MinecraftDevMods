@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block",
+      "count": 1
+    },
+    "title": "铁块来力",
+    "description": "很高兴你获得了一个铁块",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "td1:ironsmith/root",
+  "criteria": {
+    "get_iron_block": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": []
+          }
+        ],
+        "recipe_id": "minecraft:iron_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_iron_block"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": false
+}

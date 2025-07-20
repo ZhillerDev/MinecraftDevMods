@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "EE",
+    "EE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond"
+  },
+  "show_notification": false
+}

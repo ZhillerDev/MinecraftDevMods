@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot",
+      "count": 1
+    },
+    "title": "铁匠",
+    "description": "开始你的打铁生活~",
+    "background": "minecraft:textures/block/iron_ore.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": []
+          }
+        ],
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_iron_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:iron_block"
+    ],
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}

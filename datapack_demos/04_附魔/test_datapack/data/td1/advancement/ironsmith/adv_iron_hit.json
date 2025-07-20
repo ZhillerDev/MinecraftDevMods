@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword",
+      "count": 1
+    },
+    "title": "请不要打我",
+    "description": "用铁剑与怪物亲密接触",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "td1:ironsmith/adv_iron_block",
+  "criteria": {
+    "hit_mob_by_iron_sword": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": []
+          }
+        ],
+        "damage": {
+          "source_entity": {
+            "type_specific": {
+              "type": "minecraft:player"
+            },
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:iron_sword",
+                "count": 1
+              }
+            }
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": []
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hit_mob_by_iron_sword"
+    ]
+  ],
+  "rewards": {
+    "loot": [],
+    "recipes": [],
+    "experience": 200
+  },
+  "sends_telemetry_event": false
+}

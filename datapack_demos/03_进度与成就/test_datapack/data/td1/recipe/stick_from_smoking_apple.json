@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "minecraft:apple"
+  },
+  "result": {
+    "id": "minecraft:stick"
+  },
+  "experience": 1,
+  "cookingtime": 120
+}

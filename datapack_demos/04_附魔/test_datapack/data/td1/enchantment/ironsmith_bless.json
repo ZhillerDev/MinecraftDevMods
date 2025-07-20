@@ -1,0 +1,34 @@
+{
+  "description": "铁匠的祝福",
+  "supported_items": [
+    "minecraft:iron_ingot",
+    "minecraft:book"
+  ],
+  "primary_items": [
+    "minecraft:book"
+  ],
+  "weight": 100,
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "hand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 10
+        }
+      }
+    ]
+  }
+}
